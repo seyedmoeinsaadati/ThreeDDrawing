@@ -60,7 +60,7 @@ If you like this project and/or find it useful, please leave a **Star** on this 
 
 ## License
 
-It's free. enjoy it.
+It's free. enjoy it. 
 
 **It is prohibited to sublicense and/or sell copies of this project in stores such as the Unity Asset Store!**
 
