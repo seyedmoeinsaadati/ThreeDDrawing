@@ -16,35 +16,35 @@ namespace SMSPackages.ThreeD
             if (isLocalAxis)
             {
                 Gizmos.color = XAxisColor;
-                Gizmos.DrawRay(transform.position, transform.right * lenght);
-                Gizmos.DrawRay(transform.position, -transform.right * lenght);
+                Gizmos.DrawRay(transform.position, transform.right * length);
+                Gizmos.DrawRay(transform.position, -transform.right * length);
                 Gizmos.color = YAxisColor;
-                Gizmos.DrawRay(transform.position, transform.up * lenght);
-                Gizmos.DrawRay(transform.position, -transform.up * lenght);
+                Gizmos.DrawRay(transform.position, transform.up * length);
+                Gizmos.DrawRay(transform.position, -transform.up * length);
                 Gizmos.color = ZAxisColor;
-                Gizmos.DrawRay(transform.position, transform.forward * lenght);
-                Gizmos.DrawRay(transform.position, -transform.forward * lenght);
+                Gizmos.DrawRay(transform.position, transform.forward * length);
+                Gizmos.DrawRay(transform.position, -transform.forward * length);
             }
             else
             {
                 Gizmos.color = XAxisColor;
-                Gizmos.DrawRay(transform.position, Vector3.right * lenght);
-                Gizmos.DrawRay(transform.position, -Vector3.right * lenght);
+                Gizmos.DrawRay(transform.position, Vector3.right * length);
+                Gizmos.DrawRay(transform.position, -Vector3.right * length);
                 Gizmos.color = YAxisColor;
-                Gizmos.DrawRay(transform.position, Vector3.up * lenght);
-                Gizmos.DrawRay(transform.position, -Vector3.up * lenght);
+                Gizmos.DrawRay(transform.position, Vector3.up * length);
+                Gizmos.DrawRay(transform.position, -Vector3.up * length);
                 Gizmos.color = ZAxisColor;
-                Gizmos.DrawRay(transform.position, Vector3.forward * lenght);
-                Gizmos.DrawRay(transform.position, -Vector3.forward * lenght);
+                Gizmos.DrawRay(transform.position, Vector3.forward * length);
+                Gizmos.DrawRay(transform.position, -Vector3.forward * length);
                 Gizmos.color = XAxisColor;
-                Gizmos.DrawRay(transform.position, Vector3.right * lenght);
-                Gizmos.DrawRay(transform.position, -Vector3.right * lenght);
+                Gizmos.DrawRay(transform.position, Vector3.right * length);
+                Gizmos.DrawRay(transform.position, -Vector3.right * length);
                 Gizmos.color = YAxisColor;
-                Gizmos.DrawRay(transform.position, Vector3.up * lenght);
-                Gizmos.DrawRay(transform.position, -Vector3.up * lenght);
+                Gizmos.DrawRay(transform.position, Vector3.up * length);
+                Gizmos.DrawRay(transform.position, -Vector3.up * length);
                 Gizmos.color = ZAxisColor;
-                Gizmos.DrawRay(transform.position, Vector3.forward * lenght);
-                Gizmos.DrawRay(transform.position, -Vector3.forward * lenght);
+                Gizmos.DrawRay(transform.position, Vector3.forward * length);
+                Gizmos.DrawRay(transform.position, -Vector3.forward * length);
             }
         }
     }

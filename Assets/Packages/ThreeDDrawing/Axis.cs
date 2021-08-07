@@ -20,16 +20,16 @@ namespace SMSPackages.ThreeD
             switch (axisType)
             {
                 case AxisType.X:
-                    Gizmos.DrawRay(transform.position, Vector3.right * lenght);
-                    Gizmos.DrawRay(transform.position, -Vector3.right * lenght);
+                    Gizmos.DrawRay(transform.position, Vector3.right * length);
+                    Gizmos.DrawRay(transform.position, -Vector3.right * length);
                     break;
                 case AxisType.Y:
-                    Gizmos.DrawRay(transform.position, Vector3.up * lenght);
-                    Gizmos.DrawRay(transform.position, -Vector3.up * lenght);
+                    Gizmos.DrawRay(transform.position, Vector3.up * length);
+                    Gizmos.DrawRay(transform.position, -Vector3.up * length);
                     break;
                 case AxisType.Z:
-                    Gizmos.DrawRay(transform.position, Vector3.forward * lenght);
-                    Gizmos.DrawRay(transform.position, -Vector3.forward * lenght);
+                    Gizmos.DrawRay(transform.position, Vector3.forward * length);
+                    Gizmos.DrawRay(transform.position, -Vector3.forward * length);
                     break;
                 default:
                     break;

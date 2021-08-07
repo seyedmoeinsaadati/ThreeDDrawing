@@ -7,8 +7,8 @@ namespace SMSPackages.ThreeD
         protected override void OnDrawGizmos()
         {
             Gizmos.color = color;
-            Gizmos.DrawRay(transform.position, transform.right * lenght);
-            Gizmos.DrawRay(transform.position, -transform.right * lenght);
+            Gizmos.DrawRay(transform.position, transform.right * length);
+            Gizmos.DrawRay(transform.position, -transform.right * length);
         }
 
     }

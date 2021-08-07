@@ -27,10 +27,10 @@ namespace SMSPackages.ThreeD
         {
             p = new Vector3[4];
             Vector3 pos = transform.position;
-            p[0] = (-transform.right + transform.up) * lenght + pos;
-            p[1] = (transform.right + transform.up) * lenght + pos;
-            p[2] = (-transform.right - transform.up) * lenght + pos;
-            p[3] = (transform.right - transform.up) * lenght + pos;
+            p[0] = (-transform.right + transform.up) * length + pos;
+            p[1] = (transform.right + transform.up) * length + pos;
+            p[2] = (-transform.right - transform.up) * length + pos;
+            p[3] = (transform.right - transform.up) * length + pos;
         }
 
         private void DrawLines()
@@ -50,7 +50,7 @@ namespace SMSPackages.ThreeD
             Color32 m_color = color;
             m_color.a = 48;
             Gizmos.color = m_color;
-            Gizmos.DrawCube(Vector3.zero, new Vector3(1.0f, 1.0f, 0.0001f) * 2 * lenght);
+            Gizmos.DrawCube(Vector3.zero, new Vector3(1.0f, 1.0f, 0.0001f) * 2 * length);
             Gizmos.matrix = Matrix4x4.identity;
             Gizmos.color = color;
         }

@@ -36,22 +36,22 @@ namespace SMSPackages.ThreeD
             switch (planeType)
             {
                 case PlaneType.XY:
-                    p[0] = new Vector3(-lenght, lenght, 0) + pos;
-                    p[1] = new Vector3(lenght, lenght, 0) + pos;
-                    p[2] = new Vector3(-lenght, -lenght, 0) + pos;
-                    p[3] = new Vector3(lenght, -lenght, 0) + pos;
+                    p[0] = new Vector3(-length, length, 0) + pos;
+                    p[1] = new Vector3(length, length, 0) + pos;
+                    p[2] = new Vector3(-length, -length, 0) + pos;
+                    p[3] = new Vector3(length, -length, 0) + pos;
                     break;
                 case PlaneType.XZ:
-                    p[0] = new Vector3(-lenght, 0, lenght) + pos;
-                    p[1] = new Vector3(lenght, 0, lenght) + pos;
-                    p[2] = new Vector3(-lenght, 0, -lenght) + pos;
-                    p[3] = new Vector3(lenght, 0, -lenght) + pos;
+                    p[0] = new Vector3(-length, 0, length) + pos;
+                    p[1] = new Vector3(length, 0, length) + pos;
+                    p[2] = new Vector3(-length, 0, -length) + pos;
+                    p[3] = new Vector3(length, 0, -length) + pos;
                     break;
                 case PlaneType.ZY:
-                    p[0] = new Vector3(0, -lenght, lenght) + pos;
-                    p[1] = new Vector3(0, lenght, lenght) + pos;
-                    p[2] = new Vector3(0, -lenght, -lenght) + pos;
-                    p[3] = new Vector3(0, lenght, -lenght) + pos;
+                    p[0] = new Vector3(0, -length, length) + pos;
+                    p[1] = new Vector3(0, length, length) + pos;
+                    p[2] = new Vector3(0, -length, -length) + pos;
+                    p[3] = new Vector3(0, length, -length) + pos;
                     break;
                 default:
                     break;
@@ -91,7 +91,7 @@ namespace SMSPackages.ThreeD
             Color32 m_color = color;
             m_color.a = 48;
             Gizmos.color = m_color;
-            Gizmos.DrawCube(Vector3.zero, new Vector3(1.0f, 1.0f, 0.0001f) * 2 * lenght);
+            Gizmos.DrawCube(Vector3.zero, new Vector3(1.0f, 1.0f, 0.0001f) * 2 * length);
             Gizmos.matrix = Matrix4x4.identity;
             Gizmos.color = color;
         }
