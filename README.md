@@ -52,9 +52,10 @@ If you like this project and/or find it useful, please leave a **Star** on this 
 
      * Draw Rotatable Plane with center point and rotation angles.
 
-       (Notice plane normal vector is gameobject.forward)
 
      <img src="https://github.com/seyedmoeinsaadati/ThreeDDrawing/blob/main/media/rotatablePlane.png" align="right">
+
+     (Notice plane normal vector is gameobject.forward)
 
 * You can also change length of planes, line, axis and other component with length field.
 
