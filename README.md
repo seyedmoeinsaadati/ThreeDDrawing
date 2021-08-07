@@ -56,7 +56,9 @@ If you like this project and/or find it useful, please leave a **Star** on this 
 
      <img src="https://github.com/seyedmoeinsaadati/ThreeDDrawing/blob/main/media/rotatablePlane.png" align="right">
 
+* You can also change length of planes, line, axis and other component with length field.
 
+  
 
 ## License
 
